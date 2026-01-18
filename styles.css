@@ -1,0 +1,46 @@
+/* MAIN TABLE */
+#MainMenu {
+    border-collapse: collapse;
+    border: 2px solid #000;   /* Outer border */
+    font-family: Arial, sans-serif;
+}
+
+/* ALL CELLS */
+#MainMenu th,
+#MainMenu td {
+    border: 1px solid #000;   /* Inner grid lines */
+    padding: 8px;
+    vertical-align: middle;
+}
+
+/* HEADER STYLE */
+#MainMenu thead th {
+    font-weight: bold;
+}
+
+
+
+/* NESTED TABLES (Nutrition tables) */
+#NutrionInfoCrunchy,
+#ComboMealNutrition {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    border: 1.5px solid #000;
+    font-size: 14px;
+}
+
+#NutrionInfoCrunchy th,
+#NutrionInfoCrunchy td,
+#ComboMealNutrition th,
+#ComboMealNutrition td {
+    border: 1px solid #000;
+    padding: 4px;
+    text-align: center;
+}
+.menu-heading {
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 900px;
+}
